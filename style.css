@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins' ,sans-serif;
+    box-sizing: border-box;
+}
+.main{
+    height: 100% ;
+}
+
+body {
+    background: linear-gradient(135deg, #e9c798, #e9cbb4); /* Gradient colors */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.main h1:first-child{
+    text-align: center;
+    padding: 10px 10px;
+    background: linear-gradient(135deg, #00feba, #955a98);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    
+}
+.card{
+    width: 90%;
+    max-width: 1000px;
+    background: linear-gradient(135deg, #00feba, #955a98);
+    color: #fff;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search{
+    width: 100%;
+    display: felx;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
+}
+
+.weather-icon{
+    width: 170x;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px ;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+
+}
+
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    font-size: 18px;
+    padding-left: 60px; /* Make space for the location button inside the input */
+}
+
+.search .location-btn {
+    position: absolute;
+    left: 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search .search-btn {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 110px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.search .location-btn img, .search .search-btn img {
+    width: 16px;
+}
+
